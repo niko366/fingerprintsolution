@@ -1634,7 +1634,6 @@ class information:
             ip = input(ip_fp)
             port = int(input(port_fp))
             print("")
-            # ip = "10.100.250.10"
             zk = FP(ip, port, timeout=5, password=0, force_udp=False, ommit_ping=False)
             print('Menghubungkan ke mesin ...')
             conn = zk.connect()
